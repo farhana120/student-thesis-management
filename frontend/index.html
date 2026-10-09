@@ -41,5 +41,23 @@
     </p>
   </div>
 
+
+<script>
+  const loginForm = document.querySelector("form");
+
+  loginForm.addEventListener("submit", function(event) {
+    event.preventDefault();
+
+    const email = document.getElementById("email").value;
+
+    alert("Login form submitted for: " + email);
+  });
+</script>
+
+
+
+
+
+
 </body>
 </html>
